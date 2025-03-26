@@ -1,0 +1,17 @@
+# Screen Monitor Configuration
+
+# Screenshot settings
+screenshot:
+  interval: 60  # screenshot every 1 minute
+  storage_path: "./screenshots"
+
+# LLM Configuration
+llm:
+  model: "llava"  # Ollama model to use
+  host: "localhost"
+  port: 11434
+
+# Server Configuration
+server:
+  host: "0.0.0.0"
+  port: 8000
